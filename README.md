@@ -14,7 +14,7 @@ Exact Molab URL: https://molab.marimo.io/github/alphaXiv/openforgerl-train-harne
 
 Qwen2.5-7B-Instruct solved 32 deterministic multi-service tasks per condition. Every task required three to five services and contained a recoverable first-attempt failure. Harness, full versus compact context, verification scaffold, and three sampling seeds formed a balanced 2×2×2×3 design: **24 successful Kubernetes runs and 768 episodes**. Model, base policy prompt, task instructions, tools, sampling, 12-tool-turn limit, and 3,072-token generation budget were held fixed.
 
-Compute was Kubernetes on **NVIDIA RTX PRO 6000 Blackwell** GPUs, with **16 GPUs peak concurrent**. The successful evidence window ran from 2026-07-28 07:29:12Z to 07:44:27Z: **15m15s (0.2542 wall hours)**.
+Compute was Kubernetes on **NVIDIA RTX PRO 6000 Blackwell** GPUs, with **16 GPUs peak concurrent**. The queue runner measured **21m29s (0.357977 wall hours)** for the complete Kubernetes campaign, including the documented infrastructure-only startup attempts.
 
 ## Experiment log
 

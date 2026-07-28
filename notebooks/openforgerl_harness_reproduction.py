@@ -145,7 +145,7 @@ def _(mo):
 
     The paper’s exact evidence uses Qwen3-30B-A3B-Thinking, trained OpenForge checkpoints, ClawEval, and real ZeroClaw/OpenClaw/Codex harnesses. Those unreleased assets were unavailable. We therefore call the verdict **partially reproduced**: the selected harness-choice mechanism aligns in a controlled public reconstruction, but the paper’s SFT and GRPO performance gains remain untested.
 
-    **Compute provenance:** 24 successful OpenResearch Kubernetes runs on NVIDIA RTX PRO 6000 Blackwell GPUs, peak 16 concurrent GPUs. The successful evidence window was 15m15s (0.2542 wall hours), 2026-07-28 07:29:12Z–07:44:27Z. Initial PATH-only failures occurred before evaluation and are excluded.
+    **Compute provenance:** 24 successful OpenResearch Kubernetes runs on NVIDIA RTX PRO 6000 Blackwell GPUs, peak 16 concurrent GPUs. The queue runner measured 21m29s (0.357977 wall hours) for the complete Kubernetes campaign, including the documented PATH-only startup attempts. Those attempts occurred before model evaluation and are excluded from scientific metrics.
     """)
     return
 
