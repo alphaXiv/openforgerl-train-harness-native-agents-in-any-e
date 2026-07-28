@@ -1,5 +1,5 @@
 {
-  "harness": "direct",
+  "harness": "stateful",
   "context": "full",
   "verification": true,
   "seed": 0,
