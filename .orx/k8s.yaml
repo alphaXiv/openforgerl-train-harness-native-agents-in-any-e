@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: openforge-harness-{{ORX_RUN}}
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: evaluation
+          image: vllm/vllm-openai:v0.10.2
+          command: ["bash", "-c", "$ORX_SCRIPT"]
+          env:
+            - name: HF_HOME
+              value: /tmp/huggingface
+            - name: VLLM_WORKER_MULTIPROC_METHOD
+              value: spawn
+          resources:
+            requests:
+              nvidia.com/gpu: "1"
+              cpu: "8"
+              memory: "64Gi"
+            limits:
+              nvidia.com/gpu: "1"
+              cpu: "8"
+              memory: "64Gi"
