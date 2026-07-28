@@ -1,7 +1,7 @@
 {
   "harness": "direct",
-  "context": "full",
-  "verification": true,
+  "context": "compact",
+  "verification": false,
   "seed": 0,
   "model": "Qwen/Qwen2.5-7B-Instruct",
   "tasks": 32,
