@@ -1,8 +1,8 @@
 {
-  "harness": "direct",
-  "context": "full",
+  "harness": "stateful",
+  "context": "compact",
   "verification": true,
-  "seed": 0,
+  "seed": 1,
   "model": "Qwen/Qwen2.5-7B-Instruct",
   "tasks": 32,
   "max_tool_turns": 12,
