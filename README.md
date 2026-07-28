@@ -50,4 +50,5 @@ Configuration lives in `config.json`; Kubernetes shape lives in `.orx/k8s.yaml`.
 - `notebooks/openforgerl_harness_reproduction.py` — self-contained tutorial and interactive condition explorer.
 - `results/condition_summary.csv` — aggregate results over 96 episodes per condition.
 - `results/run_summary.csv` — all 24 successful Kubernetes run summaries.
+- `results/README.md` — metric definitions and shared compute provenance for every result row.
 - `run_eval.py` — executable benchmark and both harness implementations.
