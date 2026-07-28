@@ -10,7 +10,7 @@ spec:
       containers:
         - name: evaluation
           image: vllm/vllm-openai:v0.10.2
-          command: ["bash", "-c", "$ORX_SCRIPT"]
+          command: ["bash", "-c", "eval \"$ORX_SCRIPT\""]
           env:
             - name: HF_HOME
               value: /tmp/huggingface
