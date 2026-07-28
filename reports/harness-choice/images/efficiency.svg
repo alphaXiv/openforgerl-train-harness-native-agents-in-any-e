@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect width="1000" height="500" fill="#fff"/>
+  <style>.t{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.label{font-size:17px}.small{font-size:14px;fill:#536079}.value{font-size:17px;font-weight:700}.grid{stroke:#dbe2ea}</style>
+  <text x="48" y="42" class="t title">Stateful orchestration consumed more work</text>
+  <text x="48" y="68" class="t small">Ratio: stateful ÷ direct in the full-context, verification-on comparison</text>
+  <line x1="220" y1="95" x2="820" y2="95" class="grid"/><line x1="220" y1="95" x2="220" y2="420" class="grid"/>
+  <line x1="420" y1="95" x2="420" y2="420" class="grid"/><line x1="620" y1="95" x2="620" y2="420" class="grid"/><line x1="820" y1="95" x2="820" y2="420" class="grid"/>
+  <text x="215" y="448" class="t small">0×</text><text x="413" y="448" class="t small">1×</text><text x="613" y="448" class="t small">2×</text><text x="813" y="448" class="t small">3×</text>
+  <line x1="420" y1="95" x2="420" y2="420" stroke="#172033" stroke-width="2" stroke-dasharray="6 5"/><text x="430" y="116" class="t small">direct baseline</text>
+  <text x="48" y="165" class="t label">Prompt tokens</text><rect x="220" y="140" width="528" height="36" rx="5" fill="#f59e0b"/><text x="762" y="165" class="t value">2.64×</text>
+  <text x="48" y="245" class="t label">Model calls</text><rect x="220" y="220" width="522" height="36" rx="5" fill="#f59e0b"/><text x="756" y="245" class="t value">2.61×</text>
+  <text x="48" y="325" class="t label">Tool turns</text><rect x="220" y="300" width="280" height="36" rx="5" fill="#fbbf24"/><text x="514" y="325" class="t value">1.40×</text>
+  <text x="48" y="405" class="t label">Model latency</text><rect x="220" y="380" width="254" height="36" rx="5" fill="#fbbf24"/><text x="488" y="405" class="t value">1.27×</text>
+  <text x="48" y="480" class="t small">Raw means: 13,584 vs 5,156 prompt tokens; 20.9 vs 8.0 model calls; 9.8 vs 7.0 tool turns; 7.46 vs 5.86 seconds model latency.</text>
+</svg>

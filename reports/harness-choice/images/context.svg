@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#fff"/>
+  <style>.t{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.label{font-size:16px}.small{font-size:14px;fill:#536079}.value{font-size:15px;font-weight:700}.grid{stroke:#dbe2ea}</style>
+  <text x="48" y="42" class="t title">Compact context broke the stateful harness</text>
+  <text x="48" y="68" class="t small">Task completion · three-seed mean · 96 episodes per condition</text>
+  <line x1="230" y1="100" x2="840" y2="100" class="grid"/><line x1="230" y1="100" x2="230" y2="445" class="grid"/>
+  <line x1="383" y1="100" x2="383" y2="445" class="grid"/><line x1="535" y1="100" x2="535" y2="445" class="grid"/><line x1="688" y1="100" x2="688" y2="445" class="grid"/><line x1="840" y1="100" x2="840" y2="445" class="grid"/>
+  <text x="223" y="468" class="t small">0%</text><text x="374" y="468" class="t small">25%</text><text x="526" y="468" class="t small">50%</text><text x="679" y="468" class="t small">75%</text><text x="825" y="468" class="t small">100%</text>
+  <text x="48" y="150" class="t label">Direct · verify on</text><rect x="230" y="120" width="438" height="20" rx="3" fill="#1d4ed8"/><rect x="230" y="146" width="407" height="20" rx="3" fill="#93c5fd"/><text x="678" y="136" class="t value">full 71.9</text><text x="647" y="162" class="t value">compact 66.7</text>
+  <text x="48" y="238" class="t label">Direct · verify off</text><rect x="230" y="208" width="489" height="20" rx="3" fill="#1d4ed8"/><rect x="230" y="234" width="483" height="20" rx="3" fill="#93c5fd"/><text x="729" y="224" class="t value">full 80.2</text><text x="723" y="250" class="t value">compact 79.2</text>
+  <text x="48" y="326" class="t label">Stateful · verify on</text><rect x="230" y="296" width="343" height="20" rx="3" fill="#d97706"/><rect x="230" y="322" width="0" height="20" fill="#fcd34d"/><text x="583" y="312" class="t value">full 56.3</text><text x="240" y="338" class="t value">compact 0</text>
+  <text x="48" y="414" class="t label">Stateful · verify off</text><rect x="230" y="384" width="419" height="20" rx="3" fill="#d97706"/><rect x="230" y="410" width="76" height="20" rx="3" fill="#fcd34d"/><text x="659" y="400" class="t value">full 68.8</text><text x="316" y="426" class="t value">compact 12.5</text>
+  <rect x="48" y="489" width="16" height="16" rx="3" fill="#1d4ed8"/><text x="72" y="502" class="t small">full history</text><rect x="165" y="489" width="16" height="16" rx="3" fill="#93c5fd"/><text x="189" y="502" class="t small">compact state</text>
+</svg>

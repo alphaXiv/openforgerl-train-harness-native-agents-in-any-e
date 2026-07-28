@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#fff"/>
+  <style>.t{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:25px;font-weight:700}.label{font-size:16px}.small{font-size:14px;fill:#536079}.value{font-size:15px;font-weight:700}.grid{stroke:#dbe2ea}</style>
+  <text x="48" y="42" class="t title">Verification changed checking more than completion</text>
+  <text x="48" y="68" class="t small">Full-context conditions · 96 episodes each</text>
+  <line x1="175" y1="100" x2="840" y2="100" class="grid"/><line x1="175" y1="100" x2="175" y2="445" class="grid"/>
+  <line x1="341" y1="100" x2="341" y2="445" class="grid"/><line x1="508" y1="100" x2="508" y2="445" class="grid"/><line x1="674" y1="100" x2="674" y2="445" class="grid"/><line x1="840" y1="100" x2="840" y2="445" class="grid"/>
+  <text x="168" y="468" class="t small">0%</text><text x="332" y="468" class="t small">25%</text><text x="499" y="468" class="t small">50%</text><text x="665" y="468" class="t small">75%</text><text x="825" y="468" class="t small">100%</text>
+  <text x="48" y="142" class="t label">Direct · verify on</text><rect x="175" y="118" width="478" height="18" rx="3" fill="#2563eb"/><rect x="175" y="140" width="14" height="18" rx="3" fill="#93c5fd"/><text x="663" y="133" class="t value">71.9 completion</text><text x="199" y="155" class="t value">2.1 self-check</text>
+  <text x="48" y="226" class="t label">Direct · verify off</text><rect x="175" y="202" width="533" height="18" rx="3" fill="#2563eb"/><rect x="175" y="224" width="42" height="18" rx="3" fill="#93c5fd"/><text x="718" y="217" class="t value">80.2 completion</text><text x="227" y="239" class="t value">6.3 self-check</text>
+  <text x="48" y="310" class="t label">Stateful · verify on</text><rect x="175" y="286" width="374" height="18" rx="3" fill="#f59e0b"/><rect x="175" y="308" width="499" height="18" rx="3" fill="#fcd34d"/><text x="559" y="301" class="t value">56.3 completion</text><text x="684" y="323" class="t value">75.0 self-check</text>
+  <text x="48" y="394" class="t label">Stateful · verify off</text><rect x="175" y="370" width="457" height="18" rx="3" fill="#f59e0b"/><rect x="175" y="392" width="0" height="18" fill="#fcd34d"/><text x="642" y="385" class="t value">68.8 completion</text><text x="185" y="407" class="t value">0 self-check</text>
+  <rect x="48" y="489" width="16" height="16" rx="3" fill="#2563eb"/><text x="72" y="502" class="t small">completion</text><rect x="170" y="489" width="16" height="16" rx="3" fill="#93c5fd"/><text x="194" y="502" class="t small">any read-back self-check</text>
+</svg>
