@@ -1,6 +1,6 @@
 {
   "harness": "direct",
-  "context": "full",
+  "context": "compact",
   "verification": true,
   "seed": 0,
   "model": "Qwen/Qwen2.5-7B-Instruct",
